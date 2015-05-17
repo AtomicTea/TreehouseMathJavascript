@@ -1,0 +1,12 @@
+var secondsperminute = 60;
+var minperhour = 60;
+var hoursperday = 24;
+var daysperweek = 7;
+var weeksperyear = 52;
+var age = prompt("What is your age in years?");
+var ageinweeks = age*weeksperyear;
+var ageindays = ageinweeks*daysperweek;
+var ageinhours = ageindays*hoursperday;
+var ageinmins = ageinhours*minperhour;
+var ageinsecs = ageinmins*secondsperminute;
+document.write("You have been alive for "+ageinweeks+" weeks, "+ageindays+ " days, "+ ageinhours+ " hours, "+ageinmins+" minutes, "+ageinsecs+" seconds. Congrats!");
