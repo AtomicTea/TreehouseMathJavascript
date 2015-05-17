@@ -1,1 +1,2 @@
 # TreehouseMathJavascript
+This was an exercise I completed in Treehouse that asked us to do some math with Javascript. I decided to <strong>build upon</strong> what I'd previously learned about information being input by users. So I added input from the user on his/her age, then used this info to create a program that would calculate the weeks, days, minute, hours and seconds a person has been alive.
